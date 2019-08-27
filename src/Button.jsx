@@ -1,5 +1,5 @@
 import React from "react";
 
-const Button = () => <button>this is a button</button>;
+const Button = props => <button>{`Select ${props.name}`}</button>;
 
 export default Button;

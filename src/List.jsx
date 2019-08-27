@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const List = () => (
   <React.Fragment>
@@ -18,6 +19,7 @@ const List = () => (
                 definitely read.
               </div>
             </div>
+            <Button name="Book 1" />
           </li>
           <li>
             <img alt="" src="./images/book2.jpg" />
@@ -28,6 +30,7 @@ const List = () => (
                 definitely read.
               </div>
             </div>
+            <Button name="Book 2" />
           </li>
           <li>
             <img alt="" src="./images/book3.jpg" />
@@ -38,6 +41,7 @@ const List = () => (
                 definitely read.
               </div>
             </div>
+            <Button name="Book 3" />
           </li>
         </ul>
       </div>
