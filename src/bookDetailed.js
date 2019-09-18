@@ -13,7 +13,7 @@ const BookDetailed = ({ book, onBack }) => {
           </div>
           <div class="right">
             <h3 class="book-title">{ book.name }</h3>
-            <div class="book-info">An incredible book about incredible things that you should definitely read.</div>
+            <div class="book-info">{ book.detail }</div>
           </div>
       </div>
     </section>
