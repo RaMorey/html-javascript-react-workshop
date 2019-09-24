@@ -1,15 +1,14 @@
-import React from 'react';
-import NavBar from './navBar';
-import ListedBooks from './listedBooks';
+import React from "react";
+import NavBar from "./NavBar";
+import BookList from "./BookList";
 
-import './App.css';
+import "./App.css";
 
-const App = () =>
-    <div>
-      <NavBar />
-      <ListedBooks />
-    </div>
-
-
+const App = () => (
+  <div>
+    <NavBar />
+    <BookList />
+  </div>
+);
 
 export default App;
